@@ -1,5 +1,6 @@
 const carousel = document.querySelector(".carousel");
 const arrowBtns = document.querySelectorAll(".wrapper i");
+const firstCardWidth = carousel.querySelector(".card").offsetWidth;
 const engageCard1 = document.querySelector("#engage-card1");
 const engageCard2 = document.querySelector("#engage-card2");
 const engageCard3 = document.querySelector("#engage-card3");
